@@ -55,8 +55,8 @@ const custom_posttest_generator = {
                       <input type="text" id="Fachrichtung"/>
                       <label for="Studiengang">Studiengang (B.A./M.A./Phd):</label>
                       <input type="text" id="Studiengang"/>
-                      <label for="Studenabschluss">Höchster Studienabschluss bisher:</label>
-                        <select id="Studenabschluss" name="Studenabschluss">
+                      <label for="Studienabschluss">Höchster Studienabschluss bisher:</label>
+                        <select id="Studienabschluss" name="Studienabschluss">
                             <option></option>
                             <option value="B.A.">B.A.</option>
                             <option value="M.A.">M.A.</option>
@@ -106,7 +106,7 @@ const custom_posttest_generator = {
       e.preventDefault();
 
       // records the post test info
-      magpie.global_data.mainTrialList = list;
+      // magpie.global_data.mainTrialList = list;
       magpie.global_data.age = $("#age").val();
       magpie.global_data.gender = $("#gender").val();
       magpie.global_data.education = $("#education").val();
@@ -244,7 +244,7 @@ const custom_consentform_generator = {
               <p class='magpie-view-text'  >
                 <div class="tabelle">
                 <p> Bei Fragen oder anderen Anliegen kann ich mich an folgende Personen wenden: </p>
-                
+
                 </div>
               </p>
               <p class='magpie-view-text'  >

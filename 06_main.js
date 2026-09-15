@@ -35,7 +35,7 @@ $("document").ready(function() {
             // //75 Possible deployment methods are: https://134.2.103.83 https://csp-ms-7d89.kep2.uni-tuebingen.de
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "directLink",
+            deployMethod: "debug",
             contact_email: "nadine.balbach@uni-tuebingen.de",
             prolificURL: ""
         },

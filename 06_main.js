@@ -31,7 +31,7 @@ $("document").ready(function() {
         // Here, you can specify all information for the deployment
         deploy: {
             experimentID: "1",
-            serverAppURL: "https://134.2.103.83/api/submit_experiment/",
+            serverAppURL: "https://134.2.103.83/api/submit_experiment/1",
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"

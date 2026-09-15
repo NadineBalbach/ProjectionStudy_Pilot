@@ -30,7 +30,7 @@ $("document").ready(function() {
             ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "1",
+            experimentID: "75",
             serverAppURL: "https://magpie-cogsciprag.fly.dev/api/submit_experiment/",
             // Possible deployment methods are: https://134.2.103.83 https://csp-ms-7d89.kep2.uni-tuebingen.de
             // "debug" and "directLink"

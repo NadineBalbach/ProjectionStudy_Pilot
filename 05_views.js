@@ -98,7 +98,7 @@ const participantInfo = magpieViews.view_generator("instructions", {
 		<p>&nbsp;</p>
 		<p>Mit freundlichen Grüßen</p>
 		<p></p>
-		<p>Wissenschaftliche Mitarbeiterin<br />--<br /><br /><br /><br /> 
+		<p>Wissenschaftliche Mitarbeiterin<br />--<br /><br /><br /><br />
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>`,
  		 // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
@@ -293,7 +293,7 @@ const practiceSlider_rating = magpieViews.view_generator("slider_rating",{
 // );
 
 const slider_rating = magpieViews.view_generator("slider_rating",{
-    trials: main_trial_new.length,
+    trials: 2,//main_trial_new.length
     name: 'slider_rating',
     data: main_trial_new,
     buttonText: "Weiter"

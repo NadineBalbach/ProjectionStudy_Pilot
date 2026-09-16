@@ -30,9 +30,10 @@ $("document").ready(function() {
             ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "75",
-            serverAppURL: "https://magpie-cogsciprag.fly.dev/api/submit_experiment/",
-            // //75 Possible deployment methods are: https://134.2.103.83 https://csp-ms-7d89.kep2.uni-tuebingen.de
+            experimentID: "1",
+            serverAppURL: "https://134.2.103.83/api/submit_experiment/",
+            // 75 Possible deployment methods are: https://134.2.103.83 https://csp-ms-7d89.kep2.uni-tuebingen.de
+            //https://magpie-cogsciprag.fly.dev/api/submit_experiment/
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "directLink",

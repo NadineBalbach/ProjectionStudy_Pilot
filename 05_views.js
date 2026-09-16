@@ -293,7 +293,7 @@ const practiceSlider_rating = magpieViews.view_generator("slider_rating",{
 // );
 
 const slider_rating = magpieViews.view_generator("slider_rating",{
-    trials: 2,//main_trial_new.length
+    trials: main_trial_new.length,
     name: 'slider_rating',
     data: main_trial_new,
     buttonText: "Weiter"
